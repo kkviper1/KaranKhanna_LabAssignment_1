@@ -1,4 +1,14 @@
+/**
+ * 
+ * @author karan
+ *
+ */
 
+/*
+ * Class WrittenItem inherits from Item and adds functionality specific to Written Items such as the name of the author, publication name
+ * and No of Pages. The class also defines an abstract method called print for printing the output of the fields
+ * 
+ */
 abstract class WrittenItem extends Item {
     protected String authorName;
     protected String publicationName;

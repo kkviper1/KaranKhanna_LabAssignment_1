@@ -1,4 +1,14 @@
+/**
+ * 
+ * @author karan
+ * 
+ */
 
+/*
+ * 
+ * Superclass Item defines the fields for id, title and number of copies, the class also provides the necessary constructors, getters and setters
+ * and overrides the toString(), equals() and hashCode() methods
+ */
 abstract class Item {
     protected int id;
     protected String title;

@@ -1,4 +1,12 @@
-
+/**
+ * 
+ * 
+ * @author karan
+ *
+ * Video class extends MediaItem class by adding a field called director specifically for Video Items. The class also overrides the
+ * print() method by printing the field for director alongside other fields
+ * 
+ */
 public class Video extends MediaItem {
     private String director;
 

@@ -1,3 +1,12 @@
+/**
+ * 
+ * @author karan
+ *
+ * MediaItem extends Item superclass to create fields specific to Media items such as year of release and genre of the items.
+ * MediaItem also provides a print() method that prints the values of the fields in the class
+ *
+ */
+
 abstract public class MediaItem extends Item {
     private int yearOfRelease;
     private String genre;

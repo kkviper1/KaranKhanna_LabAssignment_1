@@ -1,3 +1,11 @@
+/**
+ * 
+ * @author karan
+ *
+ * Class JournalPaper extends WrittenItem by providing functionalities for Journal Papers i.e a field for year published.
+ * The class also implements the abstract method print() which prints all the fields in the same manner as an overriden toString()
+ *
+ */
 public class JournalPaper extends WrittenItem {
     private int yearPublished;
 

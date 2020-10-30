@@ -1,4 +1,12 @@
-
+/**
+ * 
+ * 
+ * @author karan
+ *
+ *	CD class extends MediaItem by providing functionalities for CD items, CD provides a field for artist and overrides the print function to print
+ *	artist field alongside other fields too 
+ *
+ */
 public class CD extends MediaItem {
 
     private String artist;
